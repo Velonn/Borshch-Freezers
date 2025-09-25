@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Products </title>
+    <!-- Простенький счётчик который каждые 35мс добавляет +1 к счету холодосов. Производство кипит! -->
+    <h2> Currently we have <span id="counter">566</span> freezers on our warhouse</h2>
+    <script>
+        let number = 566;
+        const counter = document.getElementById("counter");
+  
+        setInterval(() => {
+        number++;
+        counter.textContent = number;
+        }, 350);
+    </script>
+</head>
+<body>
+    <!-- Мы ещё обсудим как будет лучше сделать пикчи с надписями, пока оставлю пустым -->
+</body>
+</html>
