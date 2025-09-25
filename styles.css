@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(50, 142, 175);
+   
+}
+
+h1{
+  color: white;   
+  font-family: Montserrat, sans-serif;
+}
+h3{
+  color: white;   
+  font-family: Montserrat, sans-serif;
+}
+h4{
+  color: rgb(255, 255, 255);   
+  font-family: Montserrat, sans-serif;
+}
+
+p1 {
+  color: white;   
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px;
+}
+
+@font-face {
+    font-family: 'Montserrat'; /* Меня эта хуйня заебала в край, в тест сервере оно тупо не хочет качать шрифты */
+    src: url('D:/git/Borshch-Freezers/fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('D:/git/Borshch-Freezers/fonts/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('D:/git/Borshch-Freezers/fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('D:/git/Borshch-Freezers/fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
