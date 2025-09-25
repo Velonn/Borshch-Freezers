@@ -1,0 +1,5 @@
+General UI update //Дениска придумай название версии
+-added favicon
+-text rewrite
+-added css file
+reworked the landing page
