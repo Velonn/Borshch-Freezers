@@ -9,7 +9,10 @@ Added UI (broken) Landing carousel // 0.5
 
 Massive update // 0.6
 -removed landing carousel
--created self-builded ssl safety sertificate
+-created self-builded ssl safety certificate
 -created advertisement page skeleton
 -fixed font
 -and a small changes
+
+Hotfix // 0.6.1
+-deleted safety certificate

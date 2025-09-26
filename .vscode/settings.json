@@ -1,9 +1,0 @@
-{
-  "liveServer.settings.root": "/",
-  "liveServer.settings.https": {
-    "enable": true,
-    "cert": "C:/Users/asusd/OneDrive/Документы/Projects/Borshch-Freezers/certificate/localhost.pem",
-    "key": "C:/Users/asusd/OneDrive/Документы/Projects/Borshch-Freezers/certificate/localhost.key",
-    "passphrase": "skibidi"
-  }
-}
