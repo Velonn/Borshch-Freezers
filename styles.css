@@ -3,21 +3,22 @@ body {
    
 }
 
-h1{
+#slogan{
   color: white;   
   font-family: Montserrat, sans-serif;
   text-align: center;
   font-size: 50px;
 }
-h3{
+#podslogan{
   color: white;   
   font-family: Montserrat, sans-serif;
   text-align: center;
   font-size: 25px;
 }
-h4{
+#products{
   color: rgb(255, 255, 255);   
   font-family: Montserrat, sans-serif;
+  text-align: center;
 }
 
 p {
@@ -27,126 +28,4 @@ p {
   text-align: left;
   margin: 10px;
   transform: translate(20px, 400px);
-}
-
-@font-face {
-    font-family: 'Montserrat'; /* Меня эта хуйня заебала в край, в тест сервере оно тупо не хочет качать шрифты */
-    src: url('D:/git/Borshch-Freezers/fonts/Montserrat-Thin.woff2') format('woff2'),
-        url('D:/git/Borshch-Freezers/fonts/Montserrat-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('D:/git/Borshch-Freezers/fonts/Montserrat-Regular.woff2') format('woff2'),
-        url('D:/git/Borshch-Freezers/fonts/Montserrat-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.wrapper {
-  width: 100vw;
-  height: 100vh;
-  min-height: 100vh;
-  min-width: 100vw;
-  overflow: hidden;
-  display: grid;
-  grid-template-rows: 0.67fr 0.33fr;
-  grid-gap: 3.33px;
-  box-sizing: border-box;
-}
-@media screen and (min-width: 1200px) {
-  .wrapper {
-    grid-template-columns: 0.33fr 1.67fr;
-    grid-template-rows: auto;
-    width: 100vw;
-    height: 100vh;
-  }
-}
-.gallery {
-  width: 100%;
-  height: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  display: flex;
-  box-sizing: border-box;
-}
-@media screen and (min-width: 1200px) {
-  .gallery {
-    display: block;
-    overflow-y: auto;
-    overflow-x: hidden;
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-    width: 100%;
-  }
-}
-.gallery__img {
-  scroll-snap-align: start;
-  margin-bottom: 3.33px;
-  min-width: 33.33vw;
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-}
-@media screen and (min-width: 1200px) {
-  .gallery__img {
-    min-width: 100%;
-    min-height: 33.33vh;
-    width: 100%;
-    height: 100%;
-  }
-}
-.lil-nav {
-  width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  display: flex;
-  grid-row-start: 2;
-  box-sizing: border-box;
-}
-@media screen and (min-width: 1200px) {
-  .lil-nav {
-    overflow-y: auto;
-    overflow-x: hidden;
-    display: block;
-    grid-row-start: auto;
-    height: 100%;
-    width: 100%;
-  }
-}
-.lil-nav a {
-  display: flex;
-  min-width: 15vw;
-  margin-right: 3.33px;
-  height: 100%;
-}
-@media screen and (min-width: 1200px) {
-  .lil-nav a {
-    margin-bottom: 3.33px;
-    min-height: 66.66px;
-    min-width: 100%;
-    height: 100%;
-  }
-}
-.lil-nav__img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  filter: saturate(0);
-  transition: 0.3s ease all;
-}
-.lil-nav__img:hover {
-  transform: scale(1.05);
-  filter: saturate(1);
 }

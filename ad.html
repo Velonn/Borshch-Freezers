@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Advertisement </title>
+    <form action="index.html">
+        <input type="submit" value="Go back" />
+    </form>
+</head>
+<body>
+    <h1> Currently we don't have any advertisement companies open, come back in <span id="counter">5</span> minutes </h1>
+    <script>
+        let number = 5;
+        const counter = document.getElementById("counter");
+  
+        setInterval(() => {
+        number++;
+        counter.textContent = number;
+        }, 67);
+    </script>
+</body>
+</html>
+<!-- В будущем займёмся всем остальным и этим в том числе -->

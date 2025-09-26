@@ -1,8 +1,15 @@
-General UI update //0.4
+General UI update // 0.4
 -added favicon
 -text rewrite
 -added css file
-reworked the landing page
+-reworked the landing page
 
-Adedd Ui (broken) Landing carousel //0.5
+Added UI (broken) Landing carousel // 0.5
 -some text rework
+
+Massive update // 0.6
+-removed landing carousel
+-created self-builded ssl safety sertificate
+-created advertisement page skeleton
+-fixed font
+-and a small changes
