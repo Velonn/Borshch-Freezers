@@ -3,3 +3,6 @@ General UI update //0.4
 -text rewrite
 -added css file
 reworked the landing page
+
+Adedd Ui (broken) Landing carousel //0.5
+-some text rework

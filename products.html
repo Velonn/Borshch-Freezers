@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <title> Products </title>
-    <!-- Простенький счётчик который каждые 35мс добавляет +1 к счету холодосов. Производство кипит! -->
-    <h2> Currently we have <span id="counter">-20</span> freezers on our warhouse</h2>
+    <!--Производство кипит! -->
+    <h2> Currently we have sold <span id="counter">57893</span> freezers</h2>
     <script>
-        let number = -20;
+        let number = 57893;
         const counter = document.getElementById("counter");
   
         setInterval(() => {
         number++;
         counter.textContent = number;
-        }, 25);
+        }, 250);
     </script>
 </head>
 <body>
