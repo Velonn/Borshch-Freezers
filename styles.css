@@ -1,31 +1,141 @@
 body {
-    background-color: rgb(50, 142, 175);
+    background-color: #e6e5ff;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
    
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #000000;
+
+}
+
+.nav_link{
+  color: rgba(255, 255, 255, 0.750);
+  font-size: 25px;
+  font-family: Montserrat, sans-serif;
+  transition: all 0.4s ease;
+  font-weight: 500;
+  position: relative;
+}
+.nav_link::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: rgb(0, 183, 255);
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: all 0.4s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav_link:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.nav_link:hover{
+  color: rgb(255, 255, 255);
+}
+ .header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0% 30px;
+ }
+ 
+ 
+  .logo{ display: flex;
+    align-items: center;
+ }
+
+.nav_list{
+  display: flex;
+  column-gap: 40px;
+}
+
 #slogan{
-  color: white;   
+  color: rgb(0, 0, 0);   
   font-family: Montserrat, sans-serif;
   text-align: center;
   font-size: 50px;
 }
 #podslogan{
-  color: white;   
+  color: rgb(0, 0, 0);   
   font-family: Montserrat, sans-serif;
   text-align: center;
   font-size: 25px;
 }
 #products{
-  color: rgb(255, 255, 255);   
+  color: rgb(0, 0, 0);   
   font-family: Montserrat, sans-serif;
   text-align: center;
+  transition: all 0.4s ease;
+}
+#products:hover{
+  color: rgb(100, 100, 100);
+  transform: scale(1.5);
 }
 
 p {
-  color: white;   
+  color: rgb(0, 0, 0);   
   font-family: Montserrat, sans-serif;
-  font-size: 20px;
+  font-size: 40px;
   text-align: left;
   margin: 10px;
-  transform: translate(20px, 400px);
+  transform: translate(30px, 300px);
+  transition: all 0.3s ease;
 }
+p:hover{
+  color: rgb(100, 100, 100);
+}
+
+.logo {
+  width: 128x;
+  height: 128px;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+
+  body .enlistment {
+    background-color: #e6e5ff;
+    margin: 5;
+    padding: 30%;
+    box-sizing: border-box;}
+
+    #Join {
+      color: rgb(0, 0, 0);   
+      font-family: Montserrat, sans-serif;
+      text-align: left;
+      font-size: 40px;
+    }
+
+        #sold {
+      color: rgb(0, 0, 0);   
+      font-family: Montserrat, sans-serif;
+      text-align: left;
+      font-size: 40px;
+    }
+
+           #hire {
+      color: rgb(0, 0, 0);   
+      font-family: Montserrat, sans-serif;
+      text-align: left;
+      font-size: 40px;
+    }

@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 <head>
+     <header>
+      <div class="header_content">
+        <a href="#" class="logo">
+          <img class="logo_img" src="https://i.ibb.co/BVhQGydV/borsht128.png" alt="logo">
+        </a>
+
+        <nav class="nav">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link">Log In</a>
+            <li class="nav_item">
+              <a href="index.html" class="nav_link">Sign Up</a>
+            <li class="nav_item">
+               <a href="index.html"class="nav_link">I Forgor💀</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <title> Advertisement </title>
     <form action="index.html">
         <input type="submit" value="Go back" />
     </form>
 </head>
 <body>
-    <h1> Currently we don't have any advertisement companies open, come back in <span id="counter">5</span> minutes </h1>
+    <h1 id="hire"> Currently we don't have any advertisement companies open, come back in <span id="counter">5</span> minutes </h1>
     <script>
         let number = 5;
         const counter = document.getElementById("counter");
@@ -15,7 +35,7 @@
         setInterval(() => {
         number++;
         counter.textContent = number;
-        }, 67);
+        }, 67); // <---- это просто пиздец
     </script>
 </body>
 </html>
