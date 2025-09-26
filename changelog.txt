@@ -1,4 +1,4 @@
-General UI update //Дениска придумай название версии
+General UI update //0.4
 -added favicon
 -text rewrite
 -added css file
