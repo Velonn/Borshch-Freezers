@@ -17,8 +17,11 @@ Massive update // 0.6
 Hotfix // 0.6.1
 -deleted safety certificate
 
-Complete Landing Page rework 2 // 0.6
+Complete Landing Page rework 2 // 0.7
 -tweaks
 -header
 skeleton for signing
 -anims
+
+Hotfix // 0.7.1
+-started new hosting
