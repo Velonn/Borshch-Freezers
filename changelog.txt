@@ -25,3 +25,6 @@ skeleton for signing
 
 Hotfix // 0.7.1
 -started new hosting
+
+Testlog //0.7.1.1
+-test commit after purification
