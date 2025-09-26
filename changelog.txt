@@ -28,3 +28,6 @@ Hotfix // 0.7.1
 
 Testlog //0.7.1.1
 -test commit after purification
+
+Testlog //0.7.1.2
+-test
