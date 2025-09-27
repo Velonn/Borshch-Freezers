@@ -31,3 +31,7 @@ Testlog //0.7.1.1
 
 Testlog //0.7.1.2
 -test
+
+Bugfix and UiFix // 0.7.2
+-added header to products page
+-made logo link to landing page

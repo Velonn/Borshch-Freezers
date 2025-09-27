@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <header>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <div class="header_content">
+            <a href="index.html" class="logo">
+                <img class="logo_img" src="https://i.ibb.co/BVhQGydV/borsht128.png" alt="logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="index.html" class="nav_link">Log In</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html" class="nav_link">Sign Up</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html" class="nav_link">I Forgor💀</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <head>
-    <title> Products </title>
-    <!--Производство кипит! -->
-    <h2 id="sold"> Currently we have sold <span id="counter">57893</span> freezers</h2>
-    <script>
-        let number = 57893;
-        const counter = document.getElementById("counter");
-  
-        setInterval(() => {
-        number++;
-        counter.textContent = number;
-        }, 250);
-    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Products</title>
+    <style>
+        #sold {
+            margin-top: 120px; /* Adjust this value based on your header height */
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <!-- Мы ещё обсудим как будет лучше сделать пикчи с надписями, пока оставлю пустым -->
+    <h2 id="sold">Currently we have sold <span id="counter">67893</span> freezers</h2>
+    <script>
+        let number = 67893;
+        const counter = document.getElementById("counter");
+
+        setInterval(() => {
+            number++;
+            counter.textContent = number;
+        }, 250);
+    </script>
 </body>
 </html>
