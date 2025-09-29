@@ -26,12 +26,16 @@ skeleton for signing
 Hotfix // 0.7.1
 -started new hosting
 
-Testlog //0.7.1.1
+Testlog // 0.7.1.1
 -test commit after purification
 
-Testlog //0.7.1.2
+Testlog // 0.7.1.2
 -test
 
 Bugfix and UiFix // 0.7.2
 -added header to products page
 -made logo link to landing page
+
+Mini UI update // 0.7.2.1
+-deleted swear words from comments
+-deleted go back button
