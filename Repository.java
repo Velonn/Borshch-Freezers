@@ -19,7 +19,7 @@ public class Repository<T> {
 	        if (session.getTransaction().isActive()) {
 	            session.getTransaction().rollback();
 	        }
-	        throw new RuntimeException("Ошибка при сохранении объекта: " + e.getMessage(), e);
+	        throw new RuntimeException("Error saving the object: " + e.getMessage(), e);
 	    } finally {
 	        // Закрытие сессии
 	        if (session.isOpen()) {
