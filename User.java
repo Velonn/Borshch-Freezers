@@ -1,20 +1,47 @@
-package io.aadeesh.model;
-
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 @Entity
-public class User {
+@Table(name = "User")
+public class Book {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer user_id;
+    @Column(name = "idUser")
+    private Integer id;
 
+    @Column(name = "surname")
+    private String surnameString;
+
+    @Column(name = "username")
     private String username;
-    private String surrname;
+
+    @Column(name = "userEmail")
     private String userEmail;
+
+    @Column(name = "password")
     private String password;
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getSurnameString() {
+        return surnameString;
+    }
+
+    public void setSurnameString(String surnameString) {
+        this.surnameString = surnameString;
+    }
 
     public String getUsername() {
         return username;
@@ -22,14 +49,6 @@ public class User {
 
     public void setUsername(String username) {
         this.username = username;
-    }
-
-     public String getSurrname() {
-        return surrname;
-    }
-
-    public void setSurrname(String surrname) {
-        this.surrname = surrname;
     }
 
     public String getUserEmail() {
@@ -47,20 +66,12 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
-
-    public Integer getUser_id() {
-        return user_id;
-    }
-
-    public void setUser_id(Integer user_id) {
-        this.user_id = user_id;
-    }
-
     @Override
     public String toString() {
         return "User{" +
+                "id=" + id +
                 ", username='" + username + '\'' +
-                ", surrname='" + surrname + '\'' +
+                ", surname='" + surnameString + '\'' +
                 ", userEmail='" + userEmail + '\'' +
                 ", password='" + password + '\'' +
                 '}';
