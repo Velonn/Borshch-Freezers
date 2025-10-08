@@ -42,3 +42,7 @@ Mini UI update // 0.7.2.1
 
 Login system update // 0.7.5
 -added a few pages for login system
+
+Css skeleton for login // 0.7.6
+-added LogSt.css
+-style for log in system

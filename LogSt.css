@@ -1,0 +1,50 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+
+#Log1 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: Montserrat, sans-serif;
+  transition: all 0.4s ease;
+  font-weight: 800;
+  margin-top: 120px;
+  text-align: center;
+} 
+
+header {
+  background-color: #000000;
+
+}
+
+#textbox1 {
+
+  text-align: center;
+}
+#textbox2 {
+text-align: center;
+}
+
+#Reg{
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: Montserrat, sans-serif;
+  transition: all 0.4s ease;
+  font-weight: 800;
+  margin-top: 120px;
+  text-align: center;
+}
+
+#Forg{
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: Montserrat, sans-serif;
+  transition: all 0.4s ease;
+  font-weight: 800;
+  margin-top: 120px;
+  text-align: center;
+}
