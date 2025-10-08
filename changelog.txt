@@ -39,3 +39,6 @@ Bugfix and UiFix // 0.7.2
 Mini UI update // 0.7.2.1
 -deleted swear words from comments
 -deleted go back button
+
+Login system update // 0.7.5
+-added a few pages for login system
