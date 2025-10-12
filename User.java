@@ -3,13 +3,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "User")
-public class Book {
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -27,6 +25,7 @@ public class Book {
 
     @Column(name = "password")
     private String password;
+
     public Integer getId() {
         return id;
     }
@@ -66,6 +65,7 @@ public class Book {
     public void setPassword(String password) {
         this.password = password;
     }
+
     @Override
     public String toString() {
         return "User{" +

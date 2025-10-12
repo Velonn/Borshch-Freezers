@@ -19,7 +19,7 @@ import spring_boot_data.BookDATA;
 
 @RestController
 @RequestMapping("/похххх, потом сделаю как надо, главное не проебать сделать")
-public class UserController {
+public class UserController{
 
     /**
      * Получение списка всех пользователей.
