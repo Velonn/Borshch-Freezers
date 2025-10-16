@@ -3,13 +3,20 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+<<<<<<< HEAD
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+=======
+>>>>>>> a095a51df9ffea574829ded933501619f3a27463
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "User")
+<<<<<<< HEAD
 public class Book {
+=======
+public class User {
+>>>>>>> a095a51df9ffea574829ded933501619f3a27463
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -27,6 +34,10 @@ public class Book {
 
     @Column(name = "password")
     private String password;
+<<<<<<< HEAD
+=======
+
+>>>>>>> a095a51df9ffea574829ded933501619f3a27463
     public Integer getId() {
         return id;
     }
@@ -66,6 +77,10 @@ public class Book {
     public void setPassword(String password) {
         this.password = password;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a095a51df9ffea574829ded933501619f3a27463
     @Override
     public String toString() {
         return "User{" +
