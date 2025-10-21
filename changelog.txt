@@ -46,3 +46,14 @@ Login system update // 0.7.5
 Css skeleton for login // 0.7.6
 -added LogSt.css
 -style for log in system
+
+Backend java // 0.7.7
+-Backend java for log in system
+
+Fix update // 0.7.8
+-bugfix
+
+Login system update // 0.7.9
+-changed textboxes
+-changed buttons
+-added header to Log in system
