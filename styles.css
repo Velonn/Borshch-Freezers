@@ -58,13 +58,13 @@ header {
  }
  
  
-  .logo{ display: flex;
+.logo{ display: flex;
     align-items: center;
  }
 
 .nav_list{
   display: flex;
-  column-gap: 40px;
+  column-gap: 30px;
 }
 
 #slogan{
@@ -134,7 +134,7 @@ p:hover{
       font-size: 40px;
     }
 
-           #hire {
+        #hire {
       color: rgb(0, 0, 0);   
       font-family: Montserrat, sans-serif;
       text-align: center;
